@@ -1,0 +1,20 @@
+[package]
+name = "system-shock"
+version = "0.1.0"
+authors = [
+    "Looking Glass Technologies, Inc.",
+    "Night Dive Studios <38115186+NightDiveStudios@users.noreply.github.com>"
+]
+publish = false
+
+[dependencies.clippy]
+version = "0.0"
+optional = true
+
+[build-dependencies.clippy]
+version = "0.0"
+optional = true
+
+[features]
+default = []
+nightly = ["clippy"]
